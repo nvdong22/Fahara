@@ -1,0 +1,49 @@
+/* mobie tablet */
+@media (max-width:1230px){
+    .dsgrid__column-3{
+        display: none;
+    }
+    .dscontent-product-bg {
+        margin-top: 77px;
+    }
+    .dsgrid__column-9{
+        width: 100%;
+        background: white;
+
+    }
+    .dsgrid{
+        width: 750px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .dsgrid__column-2{
+        width: 33%;
+    }
+    .dshome-filter{
+        padding: 0;
+        display: none;
+    }
+}
+
+/* tablet */
+
+@media (min-width:740px) and (max-width:1023px){
+    
+}
+
+
+/* mobie */
+
+@media (max-width:739px) {
+    .dsgrid__column-2 {
+        width: 50%;
+    }
+    .ds-pagination{
+        flex-wrap: wrap;
+        font-size: 1.4rem;
+    }
+    .dshome-filter{
+        display: none;
+    }
+
+}

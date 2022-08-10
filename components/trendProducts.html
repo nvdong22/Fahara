@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        let trendProducts = [
+            {
+                img: './file/img/xuhuong/chu-thuat-hoi-chien---tap-5---giao-luu-truong-ket-nghia-kyoto---mockup.jpg',
+                productName: 'Sơn Goal! - Tập 1 - Tặng Kèm OBI + Bìa Bonus + Postcard Độc Quyền',
+                price: '500.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/4-dai-gia-kiem-toan---bia-1.jpg',
+                productName: 'The Big Four - 4 Đại Gia Kiểm Toán: Deloitte - PwC - EY - KPM',
+                price: '600.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/8935325005114_1_.jpg',
+                productName: 'My Hero Academia - Học Viện Siêu Anh Hùng - Tập 30: Điệu Nhảy Của Dabi - Tặng Kèm Bookmark',
+                price: '700.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/8936130671129.jpg',
+                productName: 'Boardgame Thám Tử Lừng Danh Conan - Nàng Dâu Halloween: Thính',
+                price: '800.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/b_a---cherry-magic-1600_1.jpg  ',
+                productName: 'Cherry Magic - Tập 1 - Tặng Kèm Giấy Note + Postcard Bồi 2 Mặt + (Quà Ngẫu Nhiên: Thẻ Card 2 Mặt)',
+                price: '900.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/hoc-vien-an-hung---tap-30---dieu-nhay-cua-dabi---ban-thuong.jpg',
+                productName: 'My Hero Academia - Học Viện Siêu Anh Hùng - Tập 30: Điệu Nhảy Của Dabi - Tặng Kèm Bookmark',
+                price: '900.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/image_187010.jpg',
+                productName: 'Sách Giáo Khoa Bộ Lớp 2 - Cánh Diều - Sách Bài Tập (Bộ 10 Cuốn) (2022) + 1 Cuộn Bao Sách Nylon TP',
+                price: '900.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/image_195509_1_12290.jpg',
+                productName: 'Doraemon Tranh Truyện Màu - Năm 2112 Doraemon Ra Đời (Tái Bản 2019)',
+                price: '900.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/one-piece---tap-99---ban-bia-ao-_-obi.jpg',
+                productName: 'One Piece Tập 75: Trả Ơn (Tái Bản 2019)',
+                price: '900.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            },
+            {
+                img: 'file/imgh/s_n-goal-bia-ao-dac-biet-tap-1.jpg',
+                productName: 'Sơn Goal! - Tập 1 - Tặng Kèm OBI + Bìa Bonus + Postcard Độc Quyền',
+                price: '900.000',
+                salePrice: '550.000',
+                saleRate: '10%',
+                rating: 5,
+                buyQlt: 77
+            }
+        ];  
+
+        let resultHtml = '';
+        trendProducts.map((product, index) => {
+            resultHtml += `
+                <div class="">
+                    <div class="content_list-trend-product">
+                        <div class="content_product-trend-item-img">
+                            <img src="${product.img}"
+                                alt="" class="content_product-trend-img">
+                        </div>
+
+                        <h2 class="content_product-trend-heading">
+                            <a href="">
+                                ${product.productName}
+                            </a>
+                        </h2>
+
+                        <div class="trend-money">
+                            <div class="content_product-trend-item">
+                                <div class="content_product-trend-price-current">${product.price}</div>
+                                <div class="content_product-trend-chapter">${product.saleRate}</div>
+                            </div>
+                            <div class="content_product-trend-price-old">
+                               ${product.salePrice}
+                            </div>
+                        </div>
+
+                        <div class="content_trend-item-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span class="content_trend-item-text-sl">(0)</span>
+                        </div>
+                        <div class="content_product-trend-buyed">
+                            <div class="content_product-trend-buyed-text">
+                               Đã bán ${product.buyQlt}
+                            </div>
+                            <span class="content_product-trend-buyed-modal">
+
+                            </span>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            `
+            return product;
+        })
+
+        $("#all-trend-products").html(resultHtml)
+    </script>
+
+    <div class="content__trend">
+        <img src="file/img/xuhuong/ico_dealhot.png" alt="" class="content_trend-img">
+        <h1 class="content_heading-trend">
+            XU HƯỚNG MUA SẮM
+        </h1>
+    </div>
+    <div class="content_list-header-trend">
+        <div class="content_game-header-list-btn-default">
+            Xu Hướng Theo Ngày
+        </div>
+        <div class="content_game-header-list-btn">
+            Sách HOT - Giảm Sốc
+        </div>
+        <div class="content_game-header-list-btn">
+            Bestteller Ngoại Văn
+        </div>
+    </div>
+
+    <div class="content_trend-product">
+        <div id="all-trend-products">
+
+        </div>
+        <div class="content_bag-btn-more">
+            <a href="">
+                Xem thêm
+            </a>
+        </div>
+    </div>
+</body>
+<script src="sach.js"></script>
+
+</html>

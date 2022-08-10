@@ -1,0 +1,51 @@
+/* mobie tablet */
+@media (max-width:1230px){
+    .cr-grid__row{
+        flex-direction: column-reverse;
+    }
+    .rs-grid__column-8{
+        width: 100%;
+    }
+    .rs-grid__column-4{
+        width: 100%;
+    }
+    .cr-conten-confirm{
+        display: none;
+    }
+    .cr-content_cart-item{
+        margin-top: 10px;
+    }
+    .cr-content_cart-item-sl{
+        display: none;
+    }
+    .cr-content_cart-item-money{
+        display: none;
+    }
+    .cr-content-heading{
+        margin-top: 98px;
+    }
+}
+
+/* tablet */
+
+@media (min-width:740px) and (max-width:1023px){
+    
+}
+
+
+@media (max-width:739px) {
+    .cr-content_cart-product-sl{
+    }
+    .cr-content_product-price{
+        display: none;
+    }
+    .cr-content_cart-product{
+        display: block;
+    }
+    .cr-content_cart-product-2{
+        display: block;
+    }
+    #product-tick{
+        height: 20px;
+    }
+}

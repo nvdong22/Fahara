@@ -1,0 +1,98 @@
+:root{
+    --primary-color:#ee4d2d;
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    --key-blue-color:#2f86eb;
+    --key-green-color:#47d864;
+
+ 
+}
+*{
+    margin: 0;
+    box-sizing: inherit;/*kế thừa thẻ chữa nó*/
+}
+html{
+    /* font-size:100% =16px */
+    font-size:62.5%;/*=10px*/
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.dsgrid-header{
+    width: 1290px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+img{
+    
+}
+
+
+
+.dsgrid{
+    width: 1230px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.dsgrid-rs{
+    width: 1230px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+    
+.dsgrid__full-width{
+   width: 100%;
+}
+
+.dsgrid__row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.dsgrid__column-3{
+    padding-left: 4px;
+    padding-right: 10px;
+    width: 25%;
+}
+
+.dsgrid__column-9{
+    padding-left: 10px;
+    padding-right: 4px;
+    width: 75%;
+}
+
+.dsgrid__column-2{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 25%;
+}
+
+
+.grid__column-4{
+    padding-right:15px;
+    padding-left: 15px;
+    width: 33.33333333333333%;
+}
+.dsgrid__column-10{
+    display: flex;
+    
+    width: 66.66666666666666%;
+
+}
+
+.grid__column-8{
+    display: flex;
+    padding-right:15px;
+    padding-left: 15px;
+    width: 66.66666666666666%;
+    flex-wrap: wrap;
+
+}
