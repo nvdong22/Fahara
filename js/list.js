@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.grid__row-list').slick({
-      slidesToShow: 5,
+      slidesToShow: 5.5,
       slidesToScroll: 4,
       infinite:false,
       prevArrow:`<button type='button' class='slick-prev trai'> <i class="fa-solid fa-angle-left" ></i></button>`,
@@ -9,14 +9,14 @@ $(document).ready(function(){
           {
             breakpoint: 1025,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2.5,
             arrows:false,
             }
           },
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 2.3,
               slidesToScroll: 2,
               arrows:false,
             }
@@ -24,7 +24,7 @@ $(document).ready(function(){
           {
               breakpoint: 480,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 2.5,
                 slidesToScroll: 2,
               arrows:false,
 
