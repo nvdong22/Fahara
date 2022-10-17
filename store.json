@@ -1,0 +1,46 @@
+{
+    "search": [
+        {
+            "id": 1,
+            "img": "./file/img/xuhuong/b_a---cherry-magic-1600_1.jpg",
+            "price": "800k",
+            "name": "Cherry magic-1600"
+        },
+        {
+            "id": 2,
+            "img": "./file/img/xuhuong/chu-thuat-hoi-chien---tap-5---giao-luu-truong-ket-nghia-kyoto---mockup.jpg",
+            "price": "400k",
+            "name": "Chú thuật sư hồi chiên - tập-5 : giao lưu trường kết nghĩa tokyo"
+        },
+        {
+            "id": 3,
+            "img": "./file/img/xuhuong/hoc-vien-an-hung---tap-30---dieu-nhay-cua-dabi---ban-thuong.jpg",
+            "price": "300k",
+            "name": "Học Viện Siêu Anh Hùng Vigilantes - My Hero Academia Illegals - Tập 2"
+        },
+        {
+            "id": 4,
+            "img": "./file/anhsearch/ph_t-h_nh-s_ch-anh-h_ng-di_t-th_n-_-b_y-th_-_c-1b_a.jpg",
+            "price": "400k",
+            "name": "Anh Hùng Diệt Thần & Bảy Thệ Ước - Tập 1"
+        },
+        {
+            "id": 5,
+            "img": "./file/anhsearch/spy---family---tap-7-_b_a-1__1.jpg",
+            "price": "400k",
+            "name": "Spy X Family - Tập 7"
+        },
+        {
+            "id": 6,
+            "img": "./file/anhsearch/nxbtre_full_05222022_092204.jpg",
+            "price": "400k",
+            "name": "Văn Phòng Thám Tử Quái Vật - Tập 2"
+        },
+        {
+            "id": 7,
+            "img": "./file/anhsearch/image_217480.jpg",
+            "price": "400k",
+            "name": "Cây Cam Ngọt Của Tôi"
+        }
+    ]
+}
