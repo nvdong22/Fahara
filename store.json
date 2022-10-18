@@ -90,5 +90,87 @@
             "price": "400.000",
             "name": "Hình Ảnh Của Bạn Đáng Giá Triệu Đô (Tái Bản 2019)"
         }
+    ],
+    "produceSale": [
+        {
+            "id": 1,
+            "img": "./file/img/xuhuong/b_a---cherry-magic-1600_1.jpg",
+            "price": "800.000",
+            "name": "Cherry magic-1600",
+            "oldprice": "900.000",
+            "sale": "20%"
+        },
+        {
+            "id": 2,
+            "img": "./file/img/xuhuong/chu-thuat-hoi-chien---tap-5---giao-luu-truong-ket-nghia-kyoto---mockup.jpg",
+            "price": "400.000",
+            "name": "Chú thuật sư hồi chiên - tập-5 : giao lưu trường kết nghĩa tokyo",
+            "oldprice": "500.000",
+            "sale": "20%"
+        },
+        {
+            "id": 3,
+            "img": "./file/img/xuhuong/hoc-vien-an-hung---tap-30---dieu-nhay-cua-dabi---ban-thuong.jpg",
+            "price": "300.000",
+            "name": "Học Viện Siêu Anh Hùng Vigilantes - My Hero Academia Illegals - Tập 2",
+            "oldprice": "400.000",
+            "sale": "20%"
+        },
+        {
+            "id": 4,
+            "img": "./file/anhsearch/ph_t-h_nh-s_ch-anh-h_ng-di_t-th_n-_-b_y-th_-_c-1b_a.jpg",
+            "price": "400.000",
+            "name": "Anh Hùng Diệt Thần & Bảy Thệ Ước - Tập 1",
+            "oldprice": "500.000",
+            "sale": "20%"
+        },
+        {
+            "id": 5,
+            "img": "./file/anhsearch/spy---family---tap-7-_b_a-1__1.jpg",
+            "price": "400.000",
+            "name": "Spy X Family - Tập 7",
+            "oldprice": "600.000",
+            "sale": "20%"
+        },
+        {
+            "id": 6,
+            "img": "./file/anhsearch/nxbtre_full_05222022_092204.jpg",
+            "price": "400.000",
+            "name": "Văn Phòng Thám Tử Quái Vật - Tập 2",
+            "oldprice": "600.000",
+            "sale": "20%"
+        },
+        {
+            "id": 7,
+            "img": "./file/anhsearch/image_217480.jpg",
+            "price": "400.000",
+            "name": "Cây Cam Ngọt Của Tôi",
+            "oldprice": "600.000",
+            "sale": "20%"
+        },
+        {
+            "id": 8,
+            "img": "./file/anhsearch/thanh-guom-diet-quy-tap-2.jpg",
+            "price": "400.000",
+            "name": "Thanh Gươm Diệt Quỷ - Kimetsu No Yaiba - Tập 2",
+            "oldprice": "600.000",
+            "sale": "20%"
+        },
+        {
+            "id": 9,
+            "img": "./file/anhsearch/z3263446058747_277031b4d3e63c1326438229101ca9ee.jpg",
+            "price": "400.000",
+            "name": "43 Bí Mật Bán Hàng Online - Tuyệt Đỉnh: Những Điều Chủ Shop Nghìn Đơn Không Bao Giờ Tiết Lộ",
+            "oldprice": "600.000",
+            "sale": "20%"
+        },
+        {
+            "id": 10,
+            "img": "./file/anhsearch/9786043603590.jpg",
+            "price": "400.000",
+            "name": "Chiến Tranh Tiền Tệ Phần IV: Siêu Cường Về Tài Chính - Tham Vọng Về Đồng Tiền Chung Châu Á",
+            "oldprice": "600.000",
+            "sale": "20%"
+        }
     ]
 }
