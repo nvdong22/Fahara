@@ -41,6 +41,54 @@
             "img": "./file/anhsearch/image_217480.jpg",
             "price": "400.000",
             "name": "Cây Cam Ngọt Của Tôi"
+        },
+        {
+            "id": 8,
+            "img": "./file/anhsearch/thanh-guom-diet-quy-tap-2.jpg",
+            "price": "400.000",
+            "name": "Thanh Gươm Diệt Quỷ - Kimetsu No Yaiba - Tập 2"
+        },
+        {
+            "id": 9,
+            "img": "./file/anhsearch/z3263446058747_277031b4d3e63c1326438229101ca9ee.jpg",
+            "price": "400.000",
+            "name": "43 Bí Mật Bán Hàng Online - Tuyệt Đỉnh: Những Điều Chủ Shop Nghìn Đơn Không Bao Giờ Tiết Lộ"
+        },
+        {
+            "id": 10,
+            "img": "./file/anhsearch/9786043603590.jpg",
+            "price": "400.000",
+            "name": "Chiến Tranh Tiền Tệ Phần IV: Siêu Cường Về Tài Chính - Tham Vọng Về Đồng Tiền Chung Châu Á"
+        },
+        {
+            "id": 11,
+            "img": "./file/anhsearch/sao-22---bia-1.jpg",
+            "price": "400.000",
+            "name": "Sword Art Online 22 - Tặng Kèm Bookmark PVC"
+        },
+        {
+            "id": 12,
+            "img": "./file/anhsearch/8935236425674_1.jpg",
+            "price": "400.000",
+            "name": "Kỹ Năng Giao Tiếp Siêu Đẳng (Tái Bản 2022)"
+        },
+        {
+            "id": 13,
+            "img": "./file/anhsearch/chu-thuat-hoi-chien---tap-1---ban-thuong.jpg",
+            "price": "400.000",
+            "name": "Chú Thuật Hồi Chiến: Tập 1"
+        },
+        {
+            "id": 14,
+            "img": "./file/anhsearch/image_192146.jpg",
+            "price": "400.000",
+            "name": "Cambridge Ielts 13 Academic With Answers (Savina)"
+        },
+        {
+            "id": 15,
+            "img": "./file/anhsearch/image_181017.jpg",
+            "price": "400.000",
+            "name": "Hình Ảnh Của Bạn Đáng Giá Triệu Đô (Tái Bản 2019)"
         }
     ]
 }

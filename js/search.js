@@ -12,7 +12,7 @@ fetch('http://localhost:3000/search')
         let emptyArray = [];
         if(userData){
             emptyArray = storeData.filter((data) => {
-                return data.name.toLowerCase().includes(userData);
+                return data.name.replace(/[^0-9a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ\s]/gi, '').toLocaleLowerCase().includes(userData.toLocaleLowerCase());
             });
             emptyArray = emptyArray.map((data) =>{
                 return data = `<div class="header_searh-input-none">
